@@ -1,8 +1,7 @@
 import axios from "axios";
 import { Crop, Disease, Product, Recommendation } from "../../types/types";
 
-// ✅ Ensure Base URL is Correct
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
+
 
 /**
  * Fetch all crops from the API.
